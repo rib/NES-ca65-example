@@ -59,8 +59,8 @@ INES_SRAM   = 0 ; 1 = battery backed SRAM at $6000-7FFF
 ;
 
 .segment "TILES"
-.incbin "background.chr"
-.incbin "sprite.chr"
+.incbin "gfx/background.chr"
+.incbin "gfx/sprite.chr"
 
 ;
 ; vectors placed at top 6 bytes of memory area
@@ -423,7 +423,7 @@ temp_y:   .res 1
 
 .segment "CODE"
 main:
-	; setup 
+	; setup
 	ldx #0
 	:
 		lda example_palette, X

@@ -1,9 +1,7 @@
-cc65/
+tools/cc65/
+tools/cTools/scan_includes
+gfx/*.chr
 example.o
-example.map.txt
-example.labels.txt
-example.nes.ram.nl
-example.nes.0.nl
-example.nes.1.nl
-example.nes.dbg
-example.nes.deb
+example.nes
+example.dbg
+example.lbl
